@@ -256,30 +256,54 @@
 
         </div>
 
-        <div class="contact-form">
-            <form action="https://formsubmit.co/info@indusbotanix.in" method="POST">
+<div class="contact-form">
+    <form action="https://formsubmit.co/info@indusbotanix.in" method="POST">
 
-                <input type="text"
-                       placeholder="Your Name"
-                       required>
+        <input
+            type="text"
+            name="Name"
+            placeholder="Your Name"
+            required
+        >
 
-                <input type="email"
-                       placeholder="Your Email"
-                       required>
+        <input
+            type="email"
+            name="Email"
+            placeholder="Your Email"
+            required
+        >
 
-                <input type="text"
-                       placeholder="Company Name">
+        <input
+            type="text"
+            name="Company"
+            placeholder="Company Name"
+        >
 
-                <textarea
-                    rows="5"
-                    placeholder="Tell us about your requirements"></textarea>
+        <textarea
+            name="Requirements"
+            rows="5"
+            placeholder="Tell us about your requirements"
+            required
+        ></textarea>
 
-                <button type="submit">
-                    Send Enquiry
-                </button>
+        <input
+            type="hidden"
+            name="_subject"
+            value="New Website Enquiry - INDUS BOTANIX"
+        >
 
-            </form>
-        </div>
+        <input
+            type="hidden"
+            name="_template"
+            value="table"
+        >
+
+        <button type="submit">
+            Send Enquiry
+        </button>
+
+    </form>
+</div>
 
     </div>
 </section>
